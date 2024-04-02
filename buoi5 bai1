@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT1</title>
+    <style>
+        div {
+            width:30%;
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h6 style="color: aliceblue; float: ;"><div style="background-color: tomato; width: 100px;"> TIÊU ĐIỂM TUẦN</div></h6><br>
+   <div>
+    <img src="01.png" alt="tên tôi là LOH KIWAN" width="200px">
+    <p>Tên tôi là Loh Kiwan: Tác phẩm khó lòng vực dậy sự nghiệp của SongJongKi</p>
+   </div>
+   <div>
+    <img src="02.png" alt="phim mai" width="200px">
+   <p>Mai vượt qua Nhà Bà Nữ trở thành phim Việt có doanh thu cao nhất mọi thời đại với 476 tỷ</p>
+   </div>
+   <div>
+   <img src="03.png" alt="trấn thành" width="200px">
+   <p>Trấn Thành cóa bỏ mọi định kiến "ăn may"</p>
+   </div>
+   <a herf="/Thietkewed/index.html">Quay lại</a>
+</body>
+</html>
