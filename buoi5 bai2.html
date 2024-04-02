@@ -1,0 +1,68 @@
+
+<html>
+    <style>
+        div {
+            width: 80%;
+            display: inline-block;
+        }
+    </style>
+    <body>
+        <div>
+        <H1><strong>Interview Feedback</strong></H1>
+
+        <h2><strong>This type of form may be an easy way to consolidate/standardize feedback on interview candidates.</strong></h2>
+        
+        <form>
+            <strong><label for="fname">Candidate Name:</label></strong>
+            <input type="text" id="fname" name="fname" value="">
+            <strong><label for="lname">Poisition Applied For:</label></strong>
+            <input type="text" id="fname" name="lname" value=""><br>
+
+            <div>
+                <form action="/action_page.php">
+                    <strong><label for="cars">Education Level:</label></strong>
+                    <select name="cars" id="cars">
+                    <ol type="1">
+                        <li><option value="High School">High School</option></li>
+                        <li><option value="Bachelors Degree">Bachelors Degree</option></li>
+                        <li><option value="Master Degree">Master Degree</option></li>
+                        <li><option value="Doctoral Degree">Doctoral Degree</option></li>
+                        <li><option value="Professional Certification">Professional Certification</option></li>
+                    </ol>
+                    </select>
+                </form>
+
+                <p><strong>Candidate is a fit for the positon</strong></p>
+                <form>
+                    <input type="radio" id="Agree" name="fav_launguage" value="Agree">
+                    <label for="Agree">Agree</label><br>
+                    <input type="radio" id="Somewhat Agree" name="fav_launguage" value="Somewhat Agree">
+                    <label for="Somewhat Agree">Somewhat Agree</label><br>
+                    <input type="radio" id="Neutral" name="fav_launguage" value="Neutral">
+                    <label for="Neutral">Neutral</label><br>
+                    <input type="radio" id="Somewhat Disagree" name="fav_launguage" value="Somewhat Disagree">
+                    <label for="Somewhat Disagree">Somewhat Disagree</label><br>
+                    <input type="radio" id="Disagree" name="fav_launguage" value="Disagree">
+                    <label for="Disagree">Disagree</label><br>
+                </form>
+            </div>
+
+            <p><strong>Should we hire this candidate?</strong></p>
+            <form>
+                <input type="radio" id="Yes" name="fav_launguage" value="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio"  id="No" name="fav_launguage" value="No">
+                <label for="No">No</label>
+            </form>
+
+            <form action="/action_page.php">
+                <strong><label for="cars">comments</label></strong>
+                <select name="cars" id="cars" size="3"></select>
+            </form>
+
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+        <a herf="/Thietkewed/index.html">back</a>
+    </body>
+</html
