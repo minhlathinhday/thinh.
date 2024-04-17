@@ -1,0 +1,103 @@
+/* Định dạng chung */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #ede8e8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.signup {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex-basis: calc(20% - 10px); /* Đều nhau và cách nhau 10px */
+    margin-right: 10px;
+}
+
+.big-column {
+    flex-basis: 30%; /* Lớn hơn 1 chút */
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.featured img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.advertisement img {
+    width: 100%;
+    border-radius: 5px;
+}
+.advertisement {
+    position: fixed;
+    bottom: 20px; /* Để tránh nằm chồng lên đáy trang */
+    left: 20px; /* Để tránh nằm chồng lên mép trái */
+    width: 800px; /* Kích thước của hình ảnh */
+    height: 100px; /* Kích thước của hình ảnh */
+    border-radius: 5px;
+    background-color: rgb(173, 163, 163);
+    box-shadow: 0px 0px 10px rgba(113, 111, 111, 0.1); /* Hiệu ứng bóng đổ */
+}
