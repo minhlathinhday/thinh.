@@ -63,6 +63,7 @@ nav ul li a {
 
 .big-column {
     flex-basis: 30%; /* Lớn hơn 1 chút */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 5); /* Hiệu ứng bóng đổ */
 }
 
 .recipe img {
